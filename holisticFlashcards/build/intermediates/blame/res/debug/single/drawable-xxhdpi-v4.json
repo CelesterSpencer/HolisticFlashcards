@@ -8,16 +8,16 @@
         "source": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xxhdpi\\abc_tab_selected_focused_holo.9.png"
     },
     {
-        "merged": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_divider_holo_dark.9.png",
-        "source": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xxhdpi\\abc_list_divider_holo_dark.9.png"
+        "merged": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\study.png",
+        "source": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\src\\main\\res\\drawable-xxhdpi\\study.png"
     },
     {
         "merged": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_search_default_holo_light.9.png",
         "source": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xxhdpi\\abc_textfield_search_default_holo_light.9.png"
     },
     {
-        "merged": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\study.png",
-        "source": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\src\\main\\res\\drawable-xxhdpi\\study.png"
+        "merged": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_divider_holo_dark.9.png",
+        "source": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xxhdpi\\abc_list_divider_holo_dark.9.png"
     },
     {
         "merged": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ab_stacked_transparent_light_holo.9.png",
