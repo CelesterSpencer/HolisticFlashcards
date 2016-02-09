@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+	<TextView
+        android:id="@+id/label1_vocab"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@+id/label"
+        android:textSize="15sp"
+        android:hint="hanzi"
+        android:layout_weight="2" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/label2_vocab"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@+id/label"
+        android:textSize="15sp"
+        android:layout_marginRight="5dp"
+        android:hint="pinyin"
+        android:maxLines="1"
+        android:layout_weight="2" >
+    </TextView>
+    
+    <TextView
+        android:id="@+id/label3_vocab"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@+id/label"
+        android:textSize="15sp"
+        android:hint="date of review"
+        android:maxLines="1"
+        android:layout_weight="1" >
+    </TextView> 
+    
+</LinearLayout> 

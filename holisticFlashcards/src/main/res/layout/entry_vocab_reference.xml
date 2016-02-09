@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#dddddddd"
+    android:tag="reference"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1_reference_entry"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+    	android:layout_marginTop="0sp"
+        android:textSize="30sp"
+        android:text="Hanzi" />
+
+    <TextView
+        android:id="@+id/textView2_reference_entry"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center" 
+        android:textSize="14sp"
+        android:text="Translation" />
+
+</LinearLayout>

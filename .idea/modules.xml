@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HolisticFlashcards.iml" filepath="$PROJECT_DIR$/HolisticFlashcards.iml" />
+      <module fileurl="file://$PROJECT_DIR$/devsmartAndroid/devsmartAndroid.iml" filepath="$PROJECT_DIR$/devsmartAndroid/devsmartAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/holisticFlashcards/holisticFlashcards.iml" filepath="$PROJECT_DIR$/holisticFlashcards/holisticFlashcards.iml" />
+    </modules>
+  </component>
+</project>

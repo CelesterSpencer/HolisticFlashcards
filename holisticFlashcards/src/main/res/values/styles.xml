@@ -1,0 +1,21 @@
+<resources>
+
+    <declare-styleable name="FastAutoResizeTextView">
+        <attr name="minTextSize" format="dimension" />
+        <attr name="maxTextSize" format="dimension" />
+        <attr name="precision" format="integer" />
+        <attr name="convergence" format="integer" />
+        <attr name="textFieldSizePercentage" format="float" />
+        <attr name="singleLine" format="boolean" />
+    </declare-styleable>
+    
+    <style name="AppBaseTheme" parent="HolisticFlashcardTheme">
+
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+
+    </style>
+
+</resources>

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\hk_flag.png",
+        "source": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\src\\main\\res\\drawable-ldpi\\hk_flag.png"
+    },
+    {
+        "merged": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\china_flag.png",
+        "source": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\src\\main\\res\\drawable-ldpi\\china_flag.png"
+    },
+    {
+        "merged": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\korea_flag.png",
+        "source": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\src\\main\\res\\drawable-ldpi\\korea_flag.png"
+    },
+    {
+        "merged": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\vietnam_flag.png",
+        "source": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\src\\main\\res\\drawable-ldpi\\vietnam_flag.png"
+    },
+    {
+        "merged": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\japan_flag.png",
+        "source": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\src\\main\\res\\drawable-ldpi\\japan_flag.png"
+    },
+    {
+        "merged": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\thailand_flag.png",
+        "source": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\src\\main\\res\\drawable-ldpi\\thailand_flag.png"
+    },
+    {
+        "merged": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\icon.png",
+        "source": "C:\\Development\\Android\\HolisticFlashcards\\holisticFlashcards\\build\\intermediates\\exploded-aar\\HolisticFlashcards\\devsmartAndroid\\unspecified\\res\\drawable-ldpi-v4\\icon.png"
+    }
+]

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.celesterspencer.holisticflashcards"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="23" />
+    
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.celesterspencer.activities.SelectReferencesActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SELECTREFERENCESACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.celesterspencer.activities.VocabInputActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VOCABINPUTACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.celesterspencer.activities.VocabularyListActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VOCABULARYLISTACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.celesterspencer.activities.MainMenuActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.celesterspencer.activities.CreateVocabularyListActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CREATEVOCABULARYLISTACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.celesterspencer.activities.VocabularylistSettingsActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VOCABULARYLISTSETTINGSACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.celesterspencer.activities.DeleteListActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="android.intent.action.DELETELISTACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+         	android:name="com.celesterspencer.activities.DropboxActivity"
+         	android:label="@string/app_name" >
+         	<intent-filter>
+             	<action android:name="android.intent.action.DROPBOXACTIVITY" />
+             	<category android:name="android.intent.category.DEFAULT" />
+         	</intent-filter>
+     	</activity> 
+     	<activity
+            android:name="com.dropbox.client2.android.AuthActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <!-- Change this to be db- followed by your app key -->
+                <data android:scheme="db-1y1a2y2fhapl3j2" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+         	android:name="com.celesterspencer.activities.EditVocabularyActivity"
+         	android:label="@string/app_name" >
+         	<intent-filter>
+             	<action android:name="android.intent.action.EDITVOCABULARYACTIVITY" />
+             	<category android:name="android.intent.category.DEFAULT" />
+         	</intent-filter>
+     	</activity> 
+     	<activity
+         	android:name="com.celesterspencer.activities.FlashcardActivity"
+         	android:label="@string/app_name" >
+         	<intent-filter>
+             	<action android:name="android.intent.action.FLASHCARDACTIVITY" />
+             	<category android:name="android.intent.category.DEFAULT" />
+         	</intent-filter>
+     	</activity>
+    </application>
+
+</manifest>

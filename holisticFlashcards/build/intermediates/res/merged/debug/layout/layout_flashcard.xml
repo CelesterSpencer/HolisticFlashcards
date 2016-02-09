@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.celesterspencer.util"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/layout_hf_flashcardsbar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/hf_gray"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textViewNew_flashcard"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textViewWrong_flashcard"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#ff0000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textViewOld_flashcard"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/hf_green"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <com.celesterspencer.util.FastAutoResizeTextView
+                android:id="@+id/textView1_flashcard"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="30sp"
+                android:layout_weight="1"
+                convergence="20"
+                maxTextSize="10000sp"
+                precision="10"
+                singleLine="true"
+                android:gravity="center_horizontal"
+                android:hint="hanzi"
+                android:textSize="500sp" />
+
+            <com.celesterspencer.util.FastAutoResizeTextView
+                android:id="@+id/textView2_flashcard"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                maxTextSize="300sp"
+                precision="50"
+                textFieldSizePercentage="0.7"
+                android:gravity="center"
+                android:hint="pinyin"
+                android:textSize="500sp" />
+
+            <com.celesterspencer.util.FastAutoResizeTextView
+                android:id="@+id/textView3_flashcard"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                maxTextSize="300sp"
+                precision="50"
+                textFieldSizePercentage="0.7"
+                android:gravity="center"
+                android:hint="translation"
+                android:textSize="500sp" />
+
+            <com.devsmart.android.ui.HorizontalListView
+                android:id="@+id/listview_horizontal_flashcard"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#ddd" />
+
+            <com.celesterspencer.util.FastAutoResizeTextView
+                android:id="@+id/textView4_flashcard"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                maxTextSize="300sp"
+                precision="10"
+                textFieldSizePercentage="0.7"
+                android:gravity="center"
+                android:hint="~"
+                android:textSize="500sp" />
+        </LinearLayout>
+
+        <com.celesterspencer.util.DrawingView
+            android:id="@+id/drawingView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/hf_gray"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button1_flashcard"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="Flip" />
+
+        <Button
+            android:id="@+id/button2_flashcard"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="Wrong" />
+
+        <Button
+            android:id="@+id/button3_flashcard"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="Right" />
+
+        <Button
+            android:id="@+id/button4_flashcard"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="Easy" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.celesterspencer.util"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/hf_white">
+
+    <include layout="@layout/layout_hf_blankbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" 
+                android:background="@color/hf_lightgray"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1">
+
+                <com.celesterspencer.util.FastAutoResizeTextView
+                    android:id="@+id/textView3_settings"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="English as question"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    singleLine="false"
+			        maxTextSize="10000sp"
+			        precision="10"
+			        convergence="20"
+			        textFieldSizePercentage="0.7" />
+
+                <CheckBox
+                    android:id="@+id/check_settings"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="2"
+                    android:textColor="#ffffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:background="@color/hf_lightgray"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                
+                android:layout_weight="1" >
+
+                <com.celesterspencer.util.FastAutoResizeTextView
+                    android:id="@+id/textView4_settings"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="Show hanzi colored"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    singleLine="false"
+			        maxTextSize="10000sp"
+			        precision="10"
+			        convergence="20"
+			        textFieldSizePercentage="0.7" />
+
+                <CheckBox
+                    android:id="@+id/check2_settings"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="2"
+                    android:textColor="#ffffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:background="@color/hf_lightgray"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1" >
+
+                <com.celesterspencer.util.FastAutoResizeTextView
+                    android:id="@+id/textView5_settings"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="New Vocab per day"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+			        singleLine="false"
+			        maxTextSize="10000sp"
+			        precision="10"
+			        convergence="20"
+			        textFieldSizePercentage="0.7" />
+
+                <EditText
+                    android:id="@+id/editText1_settings"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="2"
+                    android:ems="10" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:background="@color/hf_lightgray"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1" >
+
+                <com.celesterspencer.util.FastAutoResizeTextView
+                    android:id="@+id/textView6_settings"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="Old Vocab per day"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+			        singleLine="false"
+			        maxTextSize="10000sp"
+			        precision="10"
+			        convergence="20"
+			        textFieldSizePercentage="0.7" />
+
+                <EditText
+                    android:id="@+id/editText2_settings"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:layout_marginRight="10dp"
+                    android:ems="10" >
+                </EditText>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textSize="15sp"/>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1_edit_vocab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:text="Edit Vocabulary" />
+        
+    <EditText
+        android:id="@+id/editText1_edit_vocab"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:textSize="40sp"
+        android:ems="10"
+        android:hint="hanzi" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2_edit_vocab"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:ems="10"
+        android:hint="pinyin" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText3_edit_vocab"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:ems="10"
+        android:hint="translation" >
+    </EditText>
+
+    <com.devsmart.android.ui.HorizontalListView
+        android:id="@+id/listview_edit_vocab"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="#ddd" />
+
+    <EditText
+        android:id="@+id/editText4_edit_vocab"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:ems="10"
+        android:hint="mnemonics" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button1_edit_vocab"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="Apply Changes" />
+
+        <Button
+            android:id="@+id/button2_edit_vocab"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="Delete" />
+    </LinearLayout>
+
+</LinearLayout>

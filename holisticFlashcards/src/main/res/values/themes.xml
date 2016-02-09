@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hf_white">#FFFFFFFF</color>
+    <color name="hf_green">#FF66B266</color>
+    <color name="hf_lightgreen">#FF7FBF7F</color>
+    <color name="hf_darkgreen">#FF4CA64C</color>
+    <color name="hf_gray">#FFCCCCCC</color>
+    <color name="hf_lightgray">#FFE5E5E5</color>
+    <color name="hf_darkgray">#FFBFBFBF</color>
+    <style name="HolisticFlashcardTheme" parent="@android:style/Theme.Light.NoTitleBar">
+    	<item name="android:colorBackground">@color/hf_white</item>
+    </style>
+</resources> 

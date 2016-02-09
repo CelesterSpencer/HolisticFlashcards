@@ -1,0 +1,2 @@
+include ':devsmartAndroid'
+include ':holisticFlashcards'

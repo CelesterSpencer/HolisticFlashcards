@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editText1_create_vocablist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vocabularylist name"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spinner1_create_vocablist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/languages_array"
+        android:prompt="@string/language_spinner_prompt" />
+    
+    <Button
+        android:id="@+id/button1_create_vocablist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Create" />
+    
+
+</LinearLayout>

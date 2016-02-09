@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/layout_hf_blankbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/hf_gray"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1_db"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Synchronize with Dropbox" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+        <ImageView 
+            android:id="@+id/imageView1_db"
+            android:src="@drawable/db_icon"
+            android:layout_width="match_parent"
+        	android:layout_height="fill_parent"
+        	android:gravity="center"/>
+
+        <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        
+        <ProgressBar
+            android:id="@+id/loadingPanel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:indeterminate="true" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button1_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Vocabularylists" />
+
+    <Button
+        android:id="@+id/button2_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download Vocabularylists" />
+
+</LinearLayout>

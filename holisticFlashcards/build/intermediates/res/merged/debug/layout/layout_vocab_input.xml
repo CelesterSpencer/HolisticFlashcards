@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_hf_blankbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    
+    <EditText
+        android:id="@+id/editText1_input"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:textSize="40sp"
+        android:ems="10"
+        android:hint="hanzi" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2_input"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:textSize="40sp"
+        android:ems="10"
+        android:hint="pinyin" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText3_input"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:textSize="40sp"
+        android:ems="10"
+        android:hint="translation" >
+    </EditText>
+
+    <com.devsmart.android.ui.HorizontalListView
+        android:id="@+id/listview_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="#ddd" />
+
+    <EditText
+        android:id="@+id/editText4_input"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:textSize="40sp"
+        android:ems="10"
+        android:hint="mnemonics" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button1_input"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="Add" />
+    </LinearLayout>
+
+</LinearLayout>
